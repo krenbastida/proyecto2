@@ -1,0 +1,39 @@
+ul{
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 70% auto;
+    background-color:#2fbad9;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+
+li {
+    border-radius:6px;
+    background-color: #9675c6;
+    color: white;
+}
+
+li a{
+  color: white;
+}
+.right li:hover{
+    text-decoration: overline 6px;
+}
+.right{
+    margin-top: 50px;
+    margin-left: 290px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 20px;
+    height:30px;
+    width: 60px;
+}
+
+.left{
+    padding-top: 45px;
+    font-size: 35px;
+    height: 85px;
+    width: 200px;
+}
